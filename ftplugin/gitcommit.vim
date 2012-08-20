@@ -17,7 +17,7 @@ let b:undo_ftplugin = 'setl modeline< formatoptions<'
 
 if &textwidth == 0
   " make sure that log messages play nice with git-log on standard terminals
-  setlocal textwidth=72
+  setlocal textwidth=80
   let b:undo_ftplugin .= "|setl tw<"
 endif
 
